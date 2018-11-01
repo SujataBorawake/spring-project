@@ -15,7 +15,6 @@ public class Encoders {
 
 	@Bean
 	public PasswordEncoder userPasswordEncoder() {
-		System.out.println("Shhhhoiicicbnn dkdvk");
 		return new BCryptPasswordEncoder(8);
 	}
 }
